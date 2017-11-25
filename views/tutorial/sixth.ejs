@@ -1,12 +1,13 @@
 <% layout('layout') %>
 
-<div id="app">
-  {{ message }}
+<div id="app-6">
+  <p>{{ message }}</p>
+  <input v-model="message">
 </div>
 
 <script type="application/javascript">
-  var app = new Vue({
-    el: '#app',
+  var app6 = new Vue({
+    el: '#app-6',
     data: {
       message: 'Hello Vue!'
     }
